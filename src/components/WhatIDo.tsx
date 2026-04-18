@@ -87,24 +87,24 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>FRONT-END</h3>
+              <h4>Building Modern Web Experiences</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Crafting responsive, performant, and user-friendly interfaces
+                with modern frameworks. Focused on delivering pixel-perfect
+                designs with smooth interactions and scalable architecture.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
+                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
                 <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">Zustand</div>
+                <div className="what-tags">TanStack Query</div>
+                <div className="what-tags">Redux</div>
+                <div className="what-tags">Socket.IO</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +128,26 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>BACK-END</h3>
+              <h4>Architecting Robust Systems</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Designing and building scalable microservices, RESTful APIs,
+                and event-driven architectures. Experienced with distributed
+                systems, observability, and CI/CD pipelines.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">NestJS</div>
+                <div className="what-tags">Express</div>
+                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Redis</div>
+                <div className="what-tags">Kafka</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">GraphQL</div>
+                <div className="what-tags">gRPC</div>
+                <div className="what-tags">Keycloak</div>
+                <div className="what-tags">Grafana</div>
               </div>
               <div className="what-arrow"></div>
             </div>

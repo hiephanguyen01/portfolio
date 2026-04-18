@@ -1,15 +1,15 @@
-import * as THREE from "three";
-import { useRef, useMemo, useState, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
 import {
   BallCollider,
-  Physics,
-  RigidBody,
   CylinderCollider,
+  Physics,
   RapierRigidBody,
+  RigidBody,
 } from "@react-three/rapier";
+import { useEffect, useMemo, useRef, useState } from "react";
+import * as THREE from "three";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
@@ -57,8 +57,8 @@ function SphereGeo({
         new THREE.Vector3(
           -50 * delta * scale,
           -150 * delta * scale,
-          -50 * delta * scale
-        )
+          -50 * delta * scale,
+        ),
       );
 
     api.current?.applyImpulse(impulse, true);
@@ -105,9 +105,9 @@ function Pointer({ vec = new THREE.Vector3(), isActive }: PointerProps) {
       new THREE.Vector3(
         (pointer.x * viewport.width) / 2,
         (pointer.y * viewport.height) / 2,
-        0
+        0,
       ),
-      0.2
+      0.2,
     );
     ref.current?.setNextKinematicTranslation(targetVec);
   });
@@ -162,7 +162,7 @@ const TechStack = () => {
           metalness: 0.5,
           roughness: 1,
           clearcoat: 0.1,
-        })
+        }),
     );
   }, []);
 
